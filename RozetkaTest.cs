@@ -83,7 +83,7 @@ namespace Admixer
              }
              //List with the names of the phones up to 20 000UAH
              string result = string.Join("\r\n", elements);
-             string filePath = @".\\Phones.txt";
+             string filePath = @"Phones.txt";
              var date = DateTime.Now;
              using (StreamWriter outputFile = new StreamWriter(filePath,true))
              {
